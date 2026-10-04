@@ -1,35 +1,40 @@
 # Document Summarizer
 
-📚 **Summarize long articles and PDFs into actionable bullet points**
+Demonstrates a document-summary interface using local demonstration logic.
 
-## Description
-The Document Summarizer transforms lengthy documents, articles, and PDFs into concise, focused summaries that highlight action items and key decisions. Perfect for quickly extracting value from extensive content.
+## Status
 
-## Features
-- 🎯 **Smart Extraction**: Identifies key points, decisions, and action items
-- ⚡ **Quick Processing**: Summarize documents in seconds
-- 📋 **Action-Focused**: Prioritizes actionable insights
-- 🔄 **Multiple Formats**: Works with articles, PDFs, reports
-- 📱 **Easy Sharing**: Copy and share summaries easily
+**Browser-based portfolio demo.** The checked-in `script.js` uses local
+JavaScript, rules, templates or simulated responses. It does not call a hosted
+LLM API or run a trained local model.
 
-## Use Cases
-- Research paper summaries
-- Business report analysis
-- Article quick reads
-- Meeting documentation
-- Learning material condensation
+Generated suggestions are demonstration outputs and should be reviewed manually.
 
-## Technical Details
-- **Technology**: JavaScript, HTML/CSS, Text Processing
-- **Architecture**: Browser-based document processing
-- **AI Ready**: Compatible with external AI APIs
+## Try It Locally
 
-## Getting Started
-```bash
-git clone https://github.com/Thankswewin/document-summarizer.git
-cd document-summarizer
-open index.html
-```
+1. Clone this repository.
+2. Open `index.html` in a modern browser.
+3. Use sample or non-sensitive inputs to explore the workflow.
+
+No npm or Python installation is required for this standalone demo.
+Some fonts or styles may load from external CDNs.
+
+## Repository Layout
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Interface and page markup |
+| `script.js` | Local workflow and demonstration logic |
+| `styles.css` | Styling |
+
+## Development
+
+A real model integration would be a separate implementation. Keep provider
+credentials on a backend, never in browser JavaScript, and add appropriate
+validation and tests before using the tool with customer data.
 
 ## Author
-**Philemon Ofotan** | GitHub: [@Thankswewin](https://github.com/Thankswewin) | Email: pheelymon@gmail.com
+
+[Philemon Ofotan](https://github.com/Thankswewin), founder of
+[Archyy Studio](https://archyy.live).
+
